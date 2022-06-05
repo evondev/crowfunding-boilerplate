@@ -1,0 +1,17 @@
+- axios
+- uuid
+- sass
+- node-sass
+- redux-saga
+- redux-logger
+- react-quill
+- react-hook-form
+- slugify
+- sweetalert2
+- yup
+- react-error-boundary
+- prop-types
+- lodash
+- firebase
+- quill-image-uploader
+- html-react-parser
