@@ -10,6 +10,7 @@
     "axios": "^0.27.2",
     "firebase": "^9.8.2",
     "html-react-parser": "^1.4.14",
+    "json-server": "^0.17.0",
     "lodash": "^4.17.21",
     "node-sass": "^7.0.1",
     "prop-types": "^15.8.1",
@@ -60,5 +61,6 @@
     "autoprefixer": "^10.4.7",
     "postcss": "^8.4.14",
     "tailwindcss": "^3.0.24"
-  }
+  },
+  "proxy": "http://localhost:3009"
 }
