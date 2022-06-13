@@ -1,11 +1,9 @@
 require("dotenv").config();
-const jsonServer = require("json-server");
 const jwt = require("jsonwebtoken");
 const express = require("express");
 const app = express();
 
 app.use(express.json());
-app.use("/api", jsonServer.defaults(), jsonServer.router("db.json"));
 
 let refreshTokens = [];
 

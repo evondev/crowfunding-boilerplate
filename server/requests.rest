@@ -15,3 +15,12 @@ Content-Type: application/json
 {
   "username": "evondev"
 }
+
+###
+POST  http://localhost:3009/register
+Content-Type:  application/json
+
+{
+  "username": "evondev",
+  "password": "EvondeV"
+}
