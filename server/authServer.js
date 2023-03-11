@@ -117,5 +117,7 @@ app.delete("/logout", verifyToken, (req, res) => {
   updateRefreshToken(user.name, "");
   res.sendStatus(204);
 });
-
+app.get("/demo", (req, res) => {
+  res.json({ message: "Hello from server" });
+});
 app.listen(5000, () => console.log("Server auth started on port 5000"));
