@@ -13,7 +13,6 @@
     "http-proxy-middleware": "^2.0.6",
     "json-server": "^0.17.0",
     "lodash": "^4.17.21",
-    "node-sass": "^7.0.1",
     "prop-types": "^15.8.1",
     "quill-image-uploader": "^1.2.2",
     "react": "^18.1.0",
